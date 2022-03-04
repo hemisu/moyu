@@ -1,0 +1,24 @@
+{
+  "name": "moyu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel -w src --out-dir lib --delete-dir-on-start --extensions '.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.19.3",
+    "dayjs": "^1.10.7"
+  }
+}
